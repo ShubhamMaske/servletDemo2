@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>firstServlet</title>
+<style>
+body{
+background-color:LightGray;
+color:Black;
+}
+.SetDesign{
+border:2px solid black;
+width:30%;
+padding:20px;
+margin:auto;
+}
+</style>
+</head>
+<body>
+<div class="SetDesign">
+<h2 style="text-align:center">Hello &#128512;</h2>
+    
+    <form action="RegisterServlet" method="post">
+    <table>
+      	<tr>
+      		<td> First Name: </td>
+      		<td><input type="text" name="fname" placeholder="Enter your first Name"/></td>
+      	</tr>
+      	<tr>
+      		<td> Last Name: </td>
+      		<td><input type="text" name="lname" placeholder="Enter your last name"/></td>
+      	</tr>
+      	<tr>
+      		<td>Email : </td>
+      		<td><input type="email" name="email" placeholder="Enter Email Address"/></td>
+      	</tr>
+      	<tr>
+      		<td>Enter Your Phone Number:</td>
+      		<td><input type="tel" name="mobile"/></td>
+      	</tr>
+      	<tr>
+      		<td>Gender : </td>
+      		<td><input type="radio" name="gender" value="Male"/> Male &nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="Female" />Female</td> 		
+      	</tr>
+      	<tr>
+      		<td>Select Your Course: </td>
+      		<td> <select name="course">
+      		      <option value="C++">C++</option>
+      		      <option value="Core Java">Core Java</option>
+      		      <option value="Python">Python</option>
+      		      <option value="Advance Java">Advance Java</option>
+      		      <option value="Data Science">Data Science</option>
+      		     </select>
+      	</tr>
+      	<tr>
+      		<td style="text-align:right"><input type="checkbox" value="checked" name="condition"/></td>
+      		<td>Terms and condition</td>
+      	</tr>
+      	
+      	<tr>
+      		<td></td>
+      		<td><button type="submit">Register</button>
+      		<button type="reset">Reset</button></td>
+      	</tr>
+    
+    </table>
+       
+    
+    </form>
+    
+    </div>
+</body>
+</html>
